@@ -1,5 +1,7 @@
 # 🤖 Agent Craft —— 从零构建全栈AI智能体
 
+[![Portfolio tests](https://github.com/ljdtt/agent-craft-learning/actions/workflows/ci.yml/badge.svg)](https://github.com/ljdtt/agent-craft-learning/actions/workflows/ci.yml)
+
 > 🎓 **个人学习实践版**：本仓库基于 [Annyfee/agent-craft](https://github.com/Annyfee/agent-craft) 教学项目完成实操，保留原项目授权和作者信息，并记录了 Windows 环境下的依赖适配与练习修改。
 
 > ✅ **系统性开源教学项目**，手把手带你用 Python 构建可运行的 AI Agent，涵盖 Prompt、LLM、LangChain、RAG、LangGraph、MCP 到部署发布全流程。

@@ -17,7 +17,7 @@ python -m streamlit run m13_streamlit/s05_portfolio.py
 
 ## Streamlit Community Cloud
 
-1. 将代码上传到自己的 GitHub 仓库，此作品预定仓库为 `ljdtt/agent-craft-learning`。
+1. 代码已上传到公开仓库 [ljdtt/agent-craft-learning](https://github.com/ljdtt/agent-craft-learning)。
 2. 登录 [Streamlit Community Cloud](https://share.streamlit.io/)，连接拥有仓库管理权限的 GitHub 账户。
 3. 创建应用，选择仓库、`main` 分支和入口 `m13_streamlit/s05_portfolio.py`。
 4. 在 Advanced settings 中选择 **Python 3.11**，填写 Secrets：

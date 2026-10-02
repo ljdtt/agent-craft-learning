@@ -25,6 +25,8 @@ except FileNotFoundError:
     api_key = os.getenv("OPENAI_API_KEY", "")
     github_url = os.getenv("PORTFOLIO_GITHUB_URL", "")
 
+github_url = github_url or "https://github.com/ljdtt/agent-craft-learning"
+
 st.caption("PERSONAL LEARNING PORTFOLIO · AI AGENT")
 st.title("✈️ 智能航空客服")
 st.write("体验前台、退票专员和改签专员如何协作，看见 AI 转接和调用工具的过程。")
