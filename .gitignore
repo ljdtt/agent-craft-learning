@@ -1,0 +1,44 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Virtual environments and IDE settings
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Downloaded models and generated vector stores
+models/
+chroma_db_*/
+faiss_index/
+
+# Local databases and runtime output
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+workflow.png
+
+# Local scratch files and personal notes
+test.py
+test_mcp_client.py
+test_env.py.txt
+学习排错记录_*.docx
+docs/superpowers/
+

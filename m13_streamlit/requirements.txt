@@ -1,0 +1,5 @@
+# Cloud portfolio only. Full course dependencies are listed at the repo root.
+streamlit==1.64.0
+openai==2.54.0
+openai-agents==0.18.3
+python-dotenv==1.2.1
