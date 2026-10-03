@@ -18,9 +18,13 @@
 
 ## 在线作品版
 
+[**打开在线体验 →**](https://ljdtt-agent-craft.streamlit.app/)
+
 新增 `m13_streamlit/s05_portfolio.py`：航空客服前台、退票和改签专员可以互相转接，页面显示流式回答及工具调用记录。
 
 每个浏览器会话最多体验 **5 轮**，单次输入最多 **300 字符**。退票、改签及天气均为**教学模拟**；云端天气使用 Python 工具，课程中的本地 MCP 示例仍在模块 10～12 中。
+
+![在线航空客服作品页面](docs/portfolio-preview.jpg)
 
 本地启动（Python 3.11）：
 
@@ -29,7 +33,7 @@ python -m pip install -r m13_streamlit/requirements.txt
 python -m streamlit run m13_streamlit/s05_portfolio.py
 ```
 
-模型密钥可在本地 `.env` 设置；云端只在 Streamlit Secrets 中填写。部署步骤、体验限制和数据说明见 [云端部署说明](docs/cloud-deployment.md)。公开体验链接将在完成实际部署后补充。
+模型密钥可在本地 `.env` 设置；云端只在 Streamlit Secrets 中填写。部署步骤、体验限制和数据说明见 [云端部署说明](docs/cloud-deployment.md)。
 
 ## 📘 项目简介
 

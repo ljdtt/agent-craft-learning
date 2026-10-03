@@ -2,6 +2,14 @@
 
 这是基于 [Annyfee/agent-craft](https://github.com/Annyfee/agent-craft) 的个人学习实践版，原作者 Annyfee，许可证 MIT。云端作品展示多智能体转接、工具调用、会话记忆和流式输出。
 
+## 已部署作品
+
+- 在线体验：[ljdtt-agent-craft.streamlit.app](https://ljdtt-agent-craft.streamlit.app/)
+- 仓库：[ljdtt/agent-craft-learning](https://github.com/ljdtt/agent-craft-learning)
+- 运行配置：`main` 分支，入口 `m13_streamlit/s05_portfolio.py`，Python 3.11。
+- 2026-10-04 在云端验证了退票、改签和天气流程；工具记录确认了三次专员转接，以及 `execute_refund`、`check_seat` 和 `get_weather` 的实际调用。
+- 同日验证了跨轮记忆、第 5 轮后禁用输入、清空对话不恢复次数，以及新会话具有独立的 5 轮额度。分享设置已确认公开。
+
 ## 本地运行
 
 使用 Python 3.11，在仓库根目录执行：

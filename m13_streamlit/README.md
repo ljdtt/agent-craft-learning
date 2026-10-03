@@ -6,6 +6,8 @@
 
 ### 个人学习作品版：`s05_portfolio.py`
 
+[在线体验](https://ljdtt-agent-craft.streamlit.app/)
+
 新增的云端入口通过前台、退票和改签专员展示多智能体协作；天气使用 Python 演示工具，不依赖 `127.0.0.1:8001`。所有业务结果均为模拟。
 
 ```bash
